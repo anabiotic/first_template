@@ -3,10 +3,10 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
-  text-align: center;
 }
 
-.header {
+.header,
+.description {
   background-color: #1f2937;
   width: 100%;
   display: flex;
@@ -34,4 +34,36 @@ body {
   color: #e5e7eb;
   font-size: 18px;
   padding: 24px;
+}
+
+.hero-title {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+  padding-bottom: 0;
+  max-width: 360px;
+}
+
+.description p {
+  color: #e5e7eb;
+  font-size: 18px;
+  margin-top: -24px;
+  max-width: 460px;
+}
+
+.hero-image {
+  border: gray solid 2px;
+  padding: 100px;
+  margin-bottom: 128px;
+}
+
+.hero-button {
+  background-color: #3882f6;
+  border: #3882f6 2px;
+  border-radius: 8px;
+  padding: 6px 24px 6px 24px;
+  margin-bottom: 128px;
+  color: #e5e7eb;
+  font-weight: 700;
+  font-size: 18px;
 }
