@@ -10,14 +10,14 @@ body {
 .quote-content,
 .signup-content,
 .footer {
-  width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
 .header,
-.description {
+.description,
+.footer {
   background-color: #1f2937;
 }
 
@@ -143,4 +143,44 @@ body {
   font-style: normal;
   margin-left: 400px;
   margin-top: -48px;
+}
+
+.signup-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #3882f6;
+  border: #3882f6 solid 16px;
+  border-radius: 8px;
+}
+
+.signup-content {
+  padding: 56px;
+}
+
+.signup-text-box,
+.signup-button {
+  margin: 8px 100px;
+}
+
+.signup-title,
+.signup-text {
+  color: #f9faf8;
+  margin: 0;
+  padding: 0;
+}
+
+.signup-button button {
+  background-color: #3882f6;
+  border: #e5e7eb solid 2px;
+  font-size: 18px;
+  color: #e5e7eb;
+  padding: 6px 24px 6px 24px;
+  border-radius: 8px;
+}
+
+.footer-text {
+  color: #e5e7eb;
+  font-size: 18px;
+  padding: 36px;
 }
